@@ -13,3 +13,12 @@ def fibonacci_series(n):
 
 def reverse_list(lst):
     return lst[::-1]
+print("Felix")
+print("Toño")
+
+def contarPalabraClave(lista, clave):
+    return lista.count(clave)
+def promedio (lista):
+    if len(lista)==0:
+        return 0
+    return sum(lista)/len(lista)
